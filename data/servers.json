@@ -833,6 +833,25 @@
     "official": false
   },
   {
+    "name": "Markovo",
+    "url": "https://github.com/fisher-byte/markovo",
+    "description": "Convert PDF, DOCX, PPTX, XLSX and authorized public HTTPS pages (Google Docs, Notion, GitHub, Hacker News, YouTube) into clean, structured Markdown for agent context. Hosted Streamable HTTP endpoint with OAuth 2.1 plus local stdio server whose file tools are sandboxed to a dedicated root directory; every conversion requires an explicit Credit ceiling.",
+    "category": "filesystems-and-documents",
+    "language": "Python",
+    "provider": "Markovo",
+    "tags": [
+      "pdf",
+      "documents",
+      "markdown",
+      "conversion",
+      "remote"
+    ],
+    "official": false,
+    "endpoints": {
+      "streamableHttp": "https://markovo.net/mcp"
+    }
+  },
+  {
     "name": "API Status Check MCP",
     "url": "https://apistatuscheck.com/mcp",
     "description": "Query current and historical uptime for 285 third-party developer APIs (OpenAI, Stripe, GitHub, AWS and more) to tell an upstream outage from a local bug.",
